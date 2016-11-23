@@ -3,8 +3,37 @@
 This sample application includes embedding bootstrap, elasticsearch into a ruby on rails project
 
 * I have used the following gems
-** gem 'boostrap-sass'
-** gem 'searchkick'
+* gem 'boostrap-sass'
+* gem 'searchkick'
 
 You have to install elasticsearch before using the searchkick gem
+
+== Elasticsearch
+Elasticsearch is a hybrid integration platoform. simple we can intriduce elasticsearch as a search engine based on Apache Lucene.
+
+== Apache Lucene
+* Lucene is free and opensource
+* Basically this is a retrieval software library
+* We can mention these examples (Twitter using Lucene for real time search)
+
+== Features of Elastic
+
+* Used to search all kinds of Documents
+* Provide Scalability 
+* Multitentency
+* Distributed
+* RESTFull - REST( Representational State Transfer)
+* Elasticsearch is really fast
+
+== Key concepts
+
+* Node
+* Cluster
+* Index
+* Mapping
+* Documnet
+* Shard
+* Replicas
+
+
 
