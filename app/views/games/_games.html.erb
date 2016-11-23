@@ -1,0 +1,9 @@
+
+<div class="alert">
+    <% @games.each do |game| %>
+        <h2><%= game.name %></h2>
+        <p><%= game.description %></p>
+        <p> Year : <%= game.year %> | Rate : <%= game.rate %>  | <%= link_to "Delete", game_path(game.id), method: :delete, class: "btn-xs btn-danger"%></p>
+        <hr>
+    <% end %>
+</div>
